@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context="com.demo.registration">
+
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/r1"
+     android:id="@+id/i1"
+     />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Username : "
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/t1"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/e1"
+            android:layout_height="wrap_content"
+
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Email Id :     "
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/t2"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/e2"
+            android:layout_height="wrap_content"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Password : "
+            android:textSize="15dp"
+            android:id="@+id/t3"
+            android:drawableLeft="@drawable/ic_apps_black_24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:id="@+id/e3"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= " Contact no:"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/t4"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:inputType="phone"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/e4"
+            android:layout_height="wrap_content"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:id="@+id/btn_sub1"
+        />
+
+
+<!--
+
+<android.support.design.widget.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    android:id="@+id/f1"
+    android:src="@drawable/ic_done_all_black_24dp"
+    />
+-->
+</LinearLayout>
